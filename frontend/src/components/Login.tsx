@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Button } from "./ui/button";
-import { Card, CardContent } from "./ui/card";
-import { Input } from "./ui/input";
+import { Button } from "src/components/ui/button";
+import { Card, CardContent } from "src/components/ui/card";
+import { Input } from "src/components/ui/input";
 import { Shield } from "lucide-react";
-import type { AppUser } from "../App";
+import type { AppUser } from "src/App";
 
 interface LoginProps {
   onLoginSuccess: (user: AppUser) => void;

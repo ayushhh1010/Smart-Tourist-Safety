@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "src/components/ui/card";
 import {
   Shield,
   MapPin,
@@ -14,8 +14,8 @@ import {
   Search,
   AlertCircle,
 } from "lucide-react";
-import type { AppUser } from "../App";
-import type { Trip } from "./TripManagement";
+import type { AppUser } from "src/App";
+import type { Trip } from "src/components/TripManagement";
 
 interface DashboardProps {
   user: AppUser;

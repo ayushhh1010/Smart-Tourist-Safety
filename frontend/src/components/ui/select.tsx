@@ -8,7 +8,7 @@ import {
   ChevronUpIcon,
 } from "lucide-react@0.487.0";
 
-import { cn } from "./utils";
+import { cn } from "src/components/ui/utils";
 
 function Select({
   ...props

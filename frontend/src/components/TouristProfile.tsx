@@ -1,7 +1,7 @@
 import React from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "src/components/ui/card";
 import { Mail, MapPin, User as UserIcon, Shield, Phone, FileText } from "lucide-react";
-import type { AppUser } from "../App";
+import type { AppUser } from "src/App";
 
 interface TouristProfileProps {
   user: AppUser;

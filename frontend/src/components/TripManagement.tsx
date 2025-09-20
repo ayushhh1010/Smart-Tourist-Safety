@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Card, CardContent } from "./ui/card";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
+import { Card, CardContent } from "src/components/ui/card";
+import { Button } from "src/components/ui/button";
+import { Input } from "src/components/ui/input";
 import { Calendar, MapPin, Clock, Phone } from "lucide-react";
 
 export interface Destination {

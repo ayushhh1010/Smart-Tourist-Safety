@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
-import { Button } from "./components/ui/button";
-import { Badge } from "./components/ui/badge";
-import { LandingPage } from "./components/LandingPage";
-import { TouristProfile } from "./components/TouristProfile";
-import { TripManagement } from "./components/TripManagement";
-import { IncidentResponse } from "./components/IncidentResponse";
-import { Dashboard } from "./components/Dashboard";
-import { SearchAlerts } from "./components/SearchAlerts";
-import { EFIRFiling } from "./components/EFIRFiling";
-import { AdminDashboard } from "./components/AdminDashboard";
-import { AnomalyDetection } from "./components/AnomalyDetection";
-import { IncidentResolution } from "./components/IncidentResolution";
-import { Login } from "./components/Login";
+import { Button } from "src/components/ui/button";
+import { Badge } from "src/components/ui/badge";
+import { LandingPage } from "src/components/LandingPage";
+import { TouristProfile } from "src/components/TouristProfile";
+import { TripManagement } from "src/components/TripManagement";
+import { IncidentResponse } from "src/components/IncidentResponse";
+import { Dashboard } from "src/components/Dashboard";
+import { SearchAlerts } from "src/components/SearchAlerts";
+import { EFIRFiling } from "src/components/EFIRFiling";
+import { AdminDashboard } from "src/components/AdminDashboard";
+import { AnomalyDetection } from "src/components/AnomalyDetection";
+import { IncidentResolution } from "src/components/IncidentResolution";
+import { Login } from "src/components/Login";
 import {
   Menu,
   Shield,

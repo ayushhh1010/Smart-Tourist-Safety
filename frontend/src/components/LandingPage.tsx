@@ -1,7 +1,7 @@
 // src/components/LandingPage.tsx
 import React from 'react';
-import { Button } from './ui/button';
-import { Card, CardContent } from './ui/card';
+import { Button } from 'src/components/ui/button';
+import { Card, CardContent } from 'src/components/ui/card';
 import {
   Shield,
   Smartphone,
@@ -14,8 +14,8 @@ import {
   Instagram,
   Linkedin,
 } from 'lucide-react';
-import { ImageWithFallback } from './figma/ImageWithFallback';
-import type { AppUser } from '../App';
+import { ImageWithFallback } from 'src/components/figma/ImageWithFallback';
+import type { AppUser } from 'src/App';
 
 interface LandingPageProps {
   /** Called when user clicks "Get Started" (pre-login) */
